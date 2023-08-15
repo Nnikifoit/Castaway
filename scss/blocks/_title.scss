@@ -1,0 +1,21 @@
+.title {
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    &__fz-70 {
+        font-size: 70px;
+    }
+    &__fz-64 {
+        font-size: 64px;
+        letter-spacing: 6px;
+        line-height: 70px;
+    }
+    &__fz-22 {
+        font-size: 22px;
+        opacity: 70%;
+        line-height: 33px;
+    }
+    &__fz-17 {
+        font-size: 17px;
+    }
+}

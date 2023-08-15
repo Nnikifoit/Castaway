@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    background-color: #191919;
+    padding: 43px 80px 116px 80px;
+}
+
+.main__btn {
+    background-color: #118DA8;
+    width: 178px;
+    height: 51px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+    &:hover {
+        background-color: #0a6275;
+        transition: all 600ms ease
+    }
+}
+
+@import 'blocks/title';
+@import 'blocks/episodes';
