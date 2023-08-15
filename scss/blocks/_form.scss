@@ -1,0 +1,35 @@
+.form {
+    margin-top: 100px;
+    margin-bottom: 74px;
+    padding: 60px;
+    background-color: #000;
+    width: 1330px;
+    height: 387px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-radius: 32px;
+    &__subtitle {
+        padding-bottom: 6px;
+        color: #118DA8;
+        font-size: 18px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        input {
+            padding: 20px 0 19px 27px;
+            margin-bottom: 20px;
+            background-color: #191919;
+            width: 522px;
+            height: 82px;
+            border-radius: 6px;
+            border: none;
+            font-size: 24px;
+        }
+    }
+    &__btn {
+        width: 87px;
+        font-size: 15px;
+    }
+}

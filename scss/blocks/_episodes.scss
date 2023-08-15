@@ -1,9 +1,10 @@
 .episodes {
-    padding: 100px 0 160px 0;
+    padding: 100px 0 100px 0;
     &__start {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 1330px;
     }
     &__blocks {
         &_items {
