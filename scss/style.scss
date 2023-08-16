@@ -28,6 +28,8 @@ body {
     }
 }
 
+@import 'blocks/header';
+@import 'blocks/podcast';
 @import 'blocks/title';
 @import 'blocks/episodes';
 @import 'blocks/reviews';

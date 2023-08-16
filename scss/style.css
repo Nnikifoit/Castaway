@@ -30,6 +30,60 @@ body {
   transition: all 600ms ease;
 }
 
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1350px;
+  padding-bottom: 83px;
+}
+.header__logo {
+  width: 160px;
+  height: 32px;
+}
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 395px;
+}
+.header ul li {
+  list-style-type: none;
+  color: white;
+  font-size: 17px;
+}
+.header ul li span {
+  color: #118DA8;
+}
+
+.podcast {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1250px;
+}
+.podcast__block {
+  width: 500px;
+}
+.podcast__block_icon {
+  margin-top: 7.4rem;
+}
+
 .title {
   font-size: 22px;
   font-weight: 400;
@@ -37,6 +91,9 @@ body {
 }
 .title__fz-70 {
   font-size: 70px;
+}
+.title__fz-70 span {
+  font-weight: 700;
 }
 .title__fz-64 {
   font-size: 64px;
@@ -54,9 +111,12 @@ body {
 .title__fz-17 {
   font-size: 17px;
 }
+.title__fz-15 {
+  font-size: 15px;
+}
 
 .episodes {
-  padding: 100px 0 100px 0;
+  padding: 200px 0 100px 0;
 }
 .episodes__start {
   display: -webkit-box;

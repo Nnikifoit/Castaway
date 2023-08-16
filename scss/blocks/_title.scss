@@ -2,8 +2,11 @@
     font-size: 22px;
     font-weight: 400;
     color: #fff;
-    &__fz-70 {
+    &__fz-70{
         font-size: 70px;
+        span{
+            font-weight: 700;
+        }
     }
     &__fz-64 {
         font-size: 64px;
@@ -20,5 +23,8 @@
     }
     &__fz-17 {
         font-size: 17px;
+    }
+    &__fz-15{
+        font-size: 15px;
     }
 }

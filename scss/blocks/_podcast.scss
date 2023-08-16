@@ -1,0 +1,12 @@
+.podcast{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1250px;
+    &__block{
+        width: 500px;
+        &_icon{
+            margin-top: 7.4rem;
+        }
+    }
+}

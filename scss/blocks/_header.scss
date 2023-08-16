@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1350px;
+    padding-bottom: 83px;
+    &__logo{
+        width: 160px;
+        height: 32px;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        width: 395px;
+        li{
+            list-style-type: none;
+            color: #ffff;
+            font-size: 17px;
+            span{
+                color: #118DA8;
+            }   
+        }
+    }
+}
