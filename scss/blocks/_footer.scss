@@ -1,0 +1,39 @@
+.footer {
+    margin: 100px 0 116px 0;
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        width: 1200px;
+        &_first{
+            display: flex;
+            flex-direction: column;
+            &-social {
+               padding-top: 20px;
+               letter-spacing: 10px;
+                cursor: pointer;
+            }
+        }
+        &_second {
+            display: flex;
+            flex-direction: column;
+        }
+        &_third {
+            display: flex;
+            flex-direction: column;
+        }
+        &_fourth {
+            cursor: pointer;
+        }
+    }
+    &__link {
+        color: #fff;
+        font-size: 17px;
+        text-decoration: none;
+        line-height: 35px;
+        &:hover {
+            transition: all 1000ms ease;
+            color: aqua;
+        }
+    }
+}
