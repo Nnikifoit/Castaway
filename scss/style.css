@@ -10,7 +10,7 @@
 
 body {
   background-color: #191919;
-  padding: 43px 80px 116px 80px;
+  padding: 43px 80px 34px 80px;
 }
 
 .main__btn {
@@ -28,6 +28,41 @@ body {
   background-color: #0a6275;
   -webkit-transition: all 600ms ease;
   transition: all 600ms ease;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+.title__fz-70 {
+  font-size: 70px;
+}
+.title__fz-70 span {
+  font-weight: 700;
+}
+.title__fz-64 {
+  font-size: 64px;
+  letter-spacing: 6px;
+  line-height: 70px;
+}
+.title__fz-36 {
+  font-size: 36px;
+}
+.title__fz-22 {
+  font-size: 22px;
+  opacity: 70%;
+  line-height: 33px;
+}
+.title__fz-17 {
+  font-size: 17px;
+}
+.title__fz-17 span {
+  color: #118DA8;
+  font-size: 18px;
+}
+.title__fz-15 {
+  font-size: 15px;
 }
 
 .header {
@@ -84,37 +119,6 @@ body {
   margin-top: 7.4rem;
 }
 
-.title {
-  font-size: 22px;
-  font-weight: 400;
-  color: #fff;
-}
-.title__fz-70 {
-  font-size: 70px;
-}
-.title__fz-70 span {
-  font-weight: 700;
-}
-.title__fz-64 {
-  font-size: 64px;
-  letter-spacing: 6px;
-  line-height: 70px;
-}
-.title__fz-36 {
-  font-size: 36px;
-}
-.title__fz-22 {
-  font-size: 22px;
-  opacity: 70%;
-  line-height: 33px;
-}
-.title__fz-17 {
-  font-size: 17px;
-}
-.title__fz-15 {
-  font-size: 15px;
-}
-
 .episodes {
   padding: 200px 0 100px 0;
 }
@@ -159,6 +163,42 @@ body {
   border: none;
   color: #fff;
   font-size: 18px;
+}
+
+.jacob {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1330px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.jacob__block {
+  width: 528px;
+}
+.jacob__block_arrow {
+  background-color: #118DA8;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.jacob__block_arrow:hover {
+  background-color: #0a6275;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+.jacob__block_arrow img {
+  display: block;
+  padding-top: 22px;
+  padding-left: 5px;
 }
 
 .reviews {

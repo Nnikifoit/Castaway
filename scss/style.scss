@@ -9,7 +9,7 @@
 
 body {
     background-color: #191919;
-    padding: 43px 80px 116px 80px;
+    padding: 43px 80px 34px 80px;
 }
 
 .main__btn {
@@ -28,10 +28,11 @@ body {
     }
 }
 
+@import 'blocks/title';
 @import 'blocks/header';
 @import 'blocks/podcast';
-@import 'blocks/title';
 @import 'blocks/episodes';
+@import 'blocks/jacob';
 @import 'blocks/reviews';
 @import 'blocks/form';
 @import 'blocks/footer';
